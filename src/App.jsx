@@ -24,7 +24,7 @@ function App() {
           <h2>Projects</h2>
           <ul>
             <li>
-              <strong>All Things Linux Staff Team</strong>: Part of the staff team for All Things Linux (non-profit). Assisted with general operations, including moderation and basic mediation among all age groups.
+              <strong>All Things Linux Staff Team</strong>: Former member of the staff team for All Things Linux (non-profit). Assisted with general operations, including moderation and basic mediation among all age groups.
             </li>
             <li>
               <strong>Personal Portfolio Website</strong>: Currently learning basic programming to further my career. This website is my key project at the moment.

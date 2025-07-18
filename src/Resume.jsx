@@ -32,7 +32,7 @@ function Resume() {
           </div>
           <div className="job">
             <h3>All Things Linux Staff Team (Volunteer)</h3>
-            <p><strong>All Things Linux</strong> (Non-profit, Remote)<br/>Ongoing</p>
+            <p><strong>All Things Linux</strong> (Non-profit, Remote)<br/>Former Staff Member</p>
             <ul>
               <li>Served as a staff member for a large Linux-focused online community.</li>
               <li>Assisted with general operations, including moderation and basic mediation among all age groups.</li>

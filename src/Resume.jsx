@@ -32,7 +32,7 @@ function Resume() {
           </div>
           <div className="job">
             <h3>All Things Linux Staff Team (Volunteer)</h3>
-            <p><strong>All Things Linux</strong> (Non-profit, Remote)<br/>Former Staff Member</p>
+            <p><strong>All Things Linux</strong> (Non-profit, Remote)<br/>Former Staff Member<br/>Contact: Logan (Owner)<br/>Email: logan@allthingslinux.org<br/>Phone: 704-804-9020</p>
             <ul>
               <li>Served as a staff member for a large Linux-focused online community.</li>
               <li>Assisted with general operations, including moderation and basic mediation among all age groups.</li>
@@ -86,16 +86,6 @@ function Resume() {
             <li>Operations Oversight</li>
             <li>I9 - finishing</li>
             <li>Very organized</li>
-          </ul>
-        </section>
-        <section className="resume-section">
-          <h2>References</h2>
-          <ul>
-            <li>
-              <strong>Logan</strong> (Owner, All Things Linux)<br/>
-              Email: logan@allthingslinux.org<br/>
-              Phone: 704-804-9020
-            </li>
           </ul>
         </section>
       </main>

@@ -88,6 +88,16 @@ function Resume() {
             <li>Very organized</li>
           </ul>
         </section>
+        <section className="resume-section">
+          <h2>References</h2>
+          <ul>
+            <li>
+              <strong>Logan</strong> (Owner, All Things Linux)<br/>
+              Email: logan@allthingslinux.org<br/>
+              Phone: 704-804-9020
+            </li>
+          </ul>
+        </section>
       </main>
     </div>
   );

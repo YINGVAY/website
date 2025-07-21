@@ -22,13 +22,13 @@ function App() {
           <h2>Projects</h2>
           <ul>
             <li>
-              <strong>All Things Linux Staff Team</strong>: Former member of the staff team for All Things Linux (non-profit). Assisted with general operations, including moderation and basic mediation among all age groups.
+              <strong>All Things Linux Staff Team</strong>: Served as a staff member for a large Linux-focused online community from January 2023 to June 2024. Developed strong conflict resolution and community management skills through moderating discussions, providing technical guidance to users of varying experience levels, and facilitating collaborative problem-solving. This experience enhanced my communication abilities, cultural sensitivity, and capacity to maintain inclusive environments while supporting users across diverse technical backgrounds.
             </li>
             <li>
-              <strong>Personal Portfolio Website</strong>: Currently learning basic programming to further my career. This website is my key project at the moment.
+              <strong>Personal Portfolio Website</strong>: Built this responsive React-based portfolio to showcase my technical skills and professional experience. Implemented modern web technologies including Vite, React Router, and custom CSS with glassmorphism effects. Currently learning JavaScript and web development fundamentals to upskill and transition into software development roles.
             </li>
             <li>
-              <strong>AI & Prompt Engineering Exploration</strong>: Developed a strong interest in the application of artificial intelligence for positive impact. Actively learning prompt engineering, experimenting with various large language models (LLMs), and exploring different AI libraries and tools to expand technical expertise.
+              <strong>Custom PC Build & Linux Lab</strong>: Assembled multiple custom computer systems for personal use and learning environments. Set up multi-boot configurations with various Linux distributions (Fedora, Ubuntu, Debian) for hands-on system administration practice. This project strengthened my hardware troubleshooting skills and deepened my understanding of different Linux environments and package management systems.
             </li>
           </ul>
         </section>
@@ -37,7 +37,9 @@ function App() {
           <ul className="skills-list">
             <li>Very organized</li>
             <li>Customer service oriented</li>
-            <li>Soft Skills</li>
+            <li>PC Building & Assembly</li>
+            <li>Hardware Diagnostics & Repair</li>
+            <li>Component Installation & Upgrades</li>
             <li>IT Support & Troubleshooting</li>
           </ul>
         </section>

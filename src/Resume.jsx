@@ -31,16 +31,6 @@ function Resume() {
             </ul>
           </div>
           <div className="job">
-            <h3>All Things Linux Staff Team (Volunteer)</h3>
-            <p><strong>All Things Linux</strong> (Non-profit, Remote)<br/>Former Staff Member<br/>Contact: Logan (Owner)<br/>Email: logan@allthingslinux.org<br/>Phone: 704-804-9020</p>
-            <ul>
-              <li>Served as a staff member for a large Linux-focused online community.</li>
-              <li>Assisted with general operations, including moderation and basic mediation among all age groups.</li>
-              <li>Helped maintain a positive, inclusive environment for community members.</li>
-              <li>Supported the non-profit's mission to educate and assist users of all experience levels.</li>
-            </ul>
-          </div>
-          <div className="job">
             <h3>Site Manager (Temporary Contract)</h3>
             <p><strong>UNITY Staffing</strong> - Evansville, IN<br/>Jun 2021 - Sep 2021</p>
             <ul>
@@ -60,12 +50,23 @@ function Resume() {
               <li>Supported store operations and collaborated closely with leadership</li>
             </ul>
           </div>
+          <div className="job">
+            <h3>All Things Linux Staff Team (Volunteer)</h3>
+            <p><strong>All Things Linux</strong> (Non-profit, Remote)<br/>Jan 2023 - Jun 2024<br/>Contact: Logan Honeycut (Owner)<br/>Email: logan@allthingslinux.org<br/>Phone: 704-804-9020</p>
+            <ul>
+              <li>Served as a staff member for a large Linux-focused online community with thousands of members.</li>
+              <li>Developed advanced conflict resolution and mediation skills managing disputes between community members of all experience levels and age groups.</li>
+              <li>Provided technical guidance and mentorship to users ranging from beginners to advanced Linux practitioners.</li>
+              <li>Enhanced communication and cultural sensitivity skills while maintaining an inclusive, welcoming environment for diverse community members.</li>
+              <li>Supported the non-profit's educational mission through community engagement and user assistance.</li>
+            </ul>
+          </div>
         </section>
         <section className="resume-section">
           <h2>Education</h2>
           <ul>
-            <li><strong>High School Diploma - Electrical Focus</strong><br/>Victory Tech High School - Morganfield, KY<br/>Completed: 2019</li>
-            <li><strong>Electricity Program</strong><br/>Earle C. Clements Job Corps Academy<br/>Completed: 2018</li>
+            <li><strong>High School Diploma - Electrical Focus</strong><br/>Victory Tech High School - Morganfield, KY<br/>Completed: 2019<br/><em>Specialized coursework in electrical systems, circuit analysis, and hands-on electrical installation techniques. Developed foundational understanding of electrical safety protocols, wiring standards, and troubleshooting methodologies that complement current IT hardware expertise.</em></li>
+            <li><strong>Electricity Program</strong><br/>Earle C. Clements Job Corps Academy<br/>Completed: 2018<br/><em>Comprehensive training in residential and commercial electrical systems, including motor controls, power distribution, and electrical code compliance. Gained practical experience with multimeters, oscilloscopes, and diagnostic equipment. Developed strong problem-solving skills and attention to detail essential for technical roles.</em></li>
           </ul>
         </section>
         <section className="resume-section">

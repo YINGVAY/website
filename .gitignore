@@ -24,3 +24,12 @@ dist-ssr
 *.sw?
 node_modules/
 build/
+
+# Car radio scraper files (not part of portfolio)
+car_radio_*.py
+car_radio_*.json
+silverado_radio_search_info.txt
+requirements.txt
+
+# Temporary/misc directories
+~/

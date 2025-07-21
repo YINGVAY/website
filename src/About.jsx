@@ -9,8 +9,8 @@ function About() {
         <header>
           <h1>About Me</h1>
           <nav style={{ marginTop: '1rem' }}>
-            <Link to="/" style={{ color: '#b983ff', textDecoration: 'underline', marginRight: '1.5em' }}>Back to Portfolio</Link>
-            <Link to="/resume" style={{ color: '#b983ff', textDecoration: 'underline' }}>Resume</Link>
+            <Link to="/" className="nav-link">Back to Portfolio</Link>
+            <Link to="/resume" className="nav-link">Resume</Link>
           </nav>
         </header>
         <section className="about-section">

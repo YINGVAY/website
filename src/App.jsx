@@ -9,15 +9,13 @@ function App() {
           <h1>Deacon Henderson</h1>
           <p className="contact-info">Email: d.hendo308@gmail.com | Phone: 270-285-3479</p>
           <nav style={{ marginTop: '1rem' }}>
-            <a href="/resume" style={{ color: '#b983ff', textDecoration: 'underline', marginRight: '1.5em' }}>Resume</a>
-            <a href="/about" style={{ color: '#b983ff', textDecoration: 'underline' }}>About Me</a>
+            <a href="/resume" className="nav-link">Resume</a>
+            <a href="/about" className="nav-link">About Me</a>
           </nav>
         </header>
         <section className="about">
           <h2>About Me</h2>
-          <p>I'm a passionate, and hard worker that really enjoys new technologies and learning new things!, I am currently broadening my skills
-            with linux and some basic programming. But I have a large and vast knowledge of hardware and how to build and repair computers. I also 
-            have a background in management and customer service. I would love to work in the tech industry and learn more about the field.
+          <p>I'm a passionate and dedicated worker who truly enjoys new technologies and learning new things. I am currently broadening my skills with Linux and basic programming. I have extensive knowledge of hardware and experience building and repairing computers. I also have a background in management and customer service. I would love to work in the tech industry and continue learning more about the field.
           </p>
         </section>
         <section className="projects">

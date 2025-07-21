@@ -10,7 +10,7 @@ function Resume() {
           <h1>Deacon Henderson</h1>
           <p className="contact-info">Email: d.hendo308@gmail.com | Phone: 270-285-3479</p>
           <nav style={{ marginTop: '1rem' }}>
-            <Link to="/" style={{ color: '#b983ff', textDecoration: 'underline' }}>Back to Portfolio</Link>
+            <Link to="/" className="nav-link">Back to Portfolio</Link>
           </nav>
         </header>
         <section className="resume-section">

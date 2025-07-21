@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;700;900&display=swap');
 
 :root {
-  --primary-bg: #1a1026;
-  --glass-bg: rgba(26, 16, 38, 0.82);
-  --accent-purple: #6c3eb6;
-  --accent-gradient: linear-gradient(90deg, #6c3eb6 0%, #3a185c 100%);
-  --text-main: #e6e6f0;
-  --text-secondary: #b3a6d9;
+  --primary-bg: #1d2021;
+  --glass-bg: rgba(40, 40, 40, 0.92);
+  --accent-yellow: #d79921;
+  --accent-orange: #d65d0e;
+  --accent-red: #cc241d;
+  --accent-green: #98971a;
+  --accent-blue: #458588;
+  --accent-purple: #b16286;
+  --accent-aqua: #689d6a;
+  --accent-gray: #928374;
+  --accent-gradient: linear-gradient(90deg, #d79921 0%, #b16286 100%);
+  --text-main: #ebdbb2;
+  --text-secondary: #bdae93;
   --glass-blur: blur(12px) saturate(120%);
 }
 
 body {
-  background: var(--primary-bg);
+  background: #1d2021 url('./assets/mountains.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 #root {
@@ -63,26 +71,11 @@ body {
   overflow: hidden;
   font-family: 'Inter', 'JetBrains Mono', 'Segoe UI', Arial, sans-serif;
   letter-spacing: 0.01em;
-  background: var(--primary-bg);
+  background: transparent;
 }
 
 .animated-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 0;
-  background: linear-gradient(270deg, #2a1740, #3a185c, #1a1026, #2d0a3a, #2a1740);
-  background-size: 120% 120%;
-  animation: gradientMove 24s ease-in-out infinite;
-  opacity: 0.85;
-}
-
-@keyframes gradientMove {
-  0% { background-position: 0% 60%; }
-  50% { background-position: 100% 40%; }
-  100% { background-position: 0% 60%; }
+  display: none;
 }
 
 .portfolio-content {
@@ -110,7 +103,7 @@ header h1 {
   background: var(--accent-gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 4px 32px #1a1026cc;
+  text-shadow: 0 4px 32px #1d2021cc;
   letter-spacing: 0.03em;
 }
 
@@ -121,23 +114,23 @@ header h1 {
   font-family: 'Inter', 'JetBrains Mono', Arial, sans-serif;
 }
 
-nav a {
-  color: var(--accent-purple);
+.nav-link {
+  color: var(--accent-yellow);
   font-weight: 600;
   font-size: 1.1em;
   text-decoration: underline;
   margin-right: 1.5em;
   transition: color 0.2s, text-shadow 0.2s;
-  text-shadow: 0 2px 8px #1a102644;
+  text-shadow: 0 2px 8px #1d202144;
 }
 
-nav a:last-child {
+.nav-link:last-child {
   margin-right: 0;
 }
 
-nav a:hover {
+.nav-link:hover {
   color: #fff;
-  text-shadow: 0 0 8px #6c3eb6, 0 0 16px #3a185c;
+  text-shadow: 0 0 8px #d79921, 0 0 16px #b16286;
 }
 
 section {
@@ -150,10 +143,10 @@ section h2 {
   font-family: 'Inter', 'JetBrains Mono', Arial, sans-serif;
   font-size: 2rem;
   font-weight: 700;
-  color: var(--accent-purple);
+  color: var(--accent-orange);
   margin-bottom: 0.7em;
   letter-spacing: 0.02em;
-  text-shadow: 0 2px 16px #1a102655;
+  text-shadow: 0 2px 16px #1d202155;
 }
 
 .skills-list {
@@ -166,14 +159,14 @@ section h2 {
 }
 
 .skills-list li {
-  background: #3a185c;
+  background: #282828;
   color: var(--text-main);
   padding: 0.5em 1em;
   border-radius: 16px;
   font-size: 1em;
   font-family: 'JetBrains Mono', monospace;
   box-shadow: 0 2px 8px #1a102633;
-  border: 1px solid #6c3eb633;
+  border: 1px solid #b1628666;
 }
 
 .resume-section ul, .about-section ul {
@@ -186,18 +179,18 @@ section h2 {
 }
 
 .socials a {
-  color: var(--accent-purple);
+  color: var(--accent-yellow);
   margin: 0 0.7em;
   font-weight: 600;
   font-family: 'Inter', 'JetBrains Mono', Arial, sans-serif;
   font-size: 1.1em;
   transition: color 0.2s, text-shadow 0.2s;
-  text-shadow: 0 2px 8px #1a102644;
+  text-shadow: 0 2px 8px #1d202144;
 }
 
 .socials a:hover {
   color: #fff;
-  text-shadow: 0 0 8px #6c3eb6, 0 0 16px #3a185c;
+  text-shadow: 0 0 8px #d79921, 0 0 16px #b16286;
 }
 
 .projects ul {

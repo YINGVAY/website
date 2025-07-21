@@ -15,7 +15,7 @@ function App() {
         </header>
         <section className="about">
           <h2>About Me</h2>
-          <p>I'm a passionate and dedicated worker who truly enjoys new technologies and learning new things. I am currently broadening my skills with Linux and basic programming. I have extensive knowledge of hardware and experience building and repairing computers. I also have a background in management and customer service. I would love to work in the tech industry and continue learning more about the field.
+          <p>I'm a passionate and dedicated professional with strong experience in people management, employee relations, and organizational leadership. My background spans IT support, team management, and community engagement, giving me a unique perspective on both technical operations and human resources. I excel at conflict resolution, staff training, and creating inclusive work environments. I'm currently expanding my technical skills while leveraging my proven ability to lead teams, manage personnel, and foster positive workplace cultures.
           </p>
         </section>
         <section className="projects">
@@ -35,11 +35,13 @@ function App() {
         <section className="skills">
           <h2>Key Skills</h2>
           <ul className="skills-list">
+            <li>Employee Relations & Conflict Resolution</li>
+            <li>Staff Training & Development</li>
+            <li>Team Leadership & Coordination</li>
             <li>Very organized</li>
             <li>Customer service oriented</li>
             <li>PC Building & Assembly</li>
             <li>Hardware Diagnostics & Repair</li>
-            <li>Component Installation & Upgrades</li>
             <li>IT Support & Troubleshooting</li>
           </ul>
         </section>

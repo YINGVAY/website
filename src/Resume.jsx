@@ -15,7 +15,7 @@ function Resume() {
         </header>
         <section className="resume-section">
           <h2>Professional Summary</h2>
-          <p>Versatile and driven professional with strong experience in IT, logistics, and personnel management. Proven ability to lead teams, manage operations, and implement technology solutions efficiently. Comfortable working in IT, operations, or HR environments. Strong communicator with a proactive attitude and deep technical knowledge.</p>
+          <p>Experienced people leader and operations manager with proven expertise in employee relations, staff development, and organizational management. Strong background in conflict resolution, team coordination, and creating inclusive work environments across diverse teams. Combines excellent interpersonal skills with technical knowledge and operational efficiency. Comfortable working in HR, operations, or management roles where people skills and organizational leadership are essential.</p>
         </section>
         <section className="resume-section">
           <h2>Work Experience</h2>
@@ -72,21 +72,21 @@ function Resume() {
         <section className="resume-section">
           <h2>Skills</h2>
           <ul className="skills-list">
+            <li>Staff Supervision & Management</li>
+            <li>Employee Relations & Conflict Resolution</li>
+            <li>Employee Onboarding & Training</li>
+            <li>Team Coordination & Leadership</li>
+            <li>Scheduling & Workforce Planning</li>
+            <li>Employee Evaluations & Performance Management</li>
+            <li>Cultural Sensitivity & Inclusivity</li>
+            <li>Operations Oversight</li>
+            <li>Very organized</li>
             <li>Linux System Administration (Debian, Fedora, Ubuntu, NixOS)</li>
             <li>Windows OS Support</li>
             <li>Hardware Diagnostics & Repair</li>
             <li>Basic Networking</li>
             <li>Inventory & Logistics Software</li>
             <li>Remote IT Support</li>
-            <li>Staff Supervision</li>
-            <li>Conflict Resolution</li>
-            <li>Employee Onboarding</li>
-            <li>Scheduling</li>
-            <li>Training & Development</li>
-            <li>Team Coordination</li>
-            <li>Operations Oversight</li>
-            <li>I9 - finishing</li>
-            <li>Very organized</li>
           </ul>
         </section>
       </main>
